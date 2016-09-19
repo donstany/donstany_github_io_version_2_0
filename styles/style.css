@@ -1,0 +1,90 @@
+@font-face {}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 800px; }
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #e5f1da;
+  height: 100%; }
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #043702;
+  color: white;
+  padding: 15px;
+  height: 100%; }
+  footer p.footer-rights {
+    font-size: 0.8em; }
+
+a.navbar-brand img {
+  height: 40px !important;
+  width: 40px !important;
+  margin: -10px;
+  padding: 0;
+  border-radius: 50%; }
+
+.navbar.navbar-inverse {
+  background-color: #043702 !important;
+  font-weight: bold; }
+
+.main-content {
+  margin: 0 auto;
+  width: 80%; }
+
+.header-headings {
+  text-align: center; }
+
+html body div.container-fluid.text-center {
+  height: 100%; }
+
+.wrapper {
+  height: 100%; }
+
+.col-sm-8 {
+  font-size: 1.2em;
+  height: 100%;
+  overflow: auto;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+50,fbdf93+100 */
+  background: #fceabb;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #fceabb 0%, #fcf014 50%, #fbdf93 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #fceabb 0%, #fccd4d 50%, #fbdf93 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #fceabb 0%, #fccd4d 50%, #fbdf93 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.well {
+  background-color: #E5F1DA;
+  border-radius: 10px; }
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px; }
+
+  .row.content {
+    height: auto; }
+
+  .navbar-toggle {
+    background-color: #81f14b; }
+    .navbar-toggle:visited {
+      background-color: #81f14b; }
+
+  body > div > div > div > div.col-sm-8.text-justify > h1 {
+    margin-top: 0;
+    padding: 20px 0; } }
+html {
+  background-color: #E5F1DA; }
+
+/*# sourceMappingURL=style.css.map */
